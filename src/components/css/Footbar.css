@@ -1,0 +1,17 @@
+.footbar{
+    position: absolute;
+    width:100%;
+    height:50px;
+    /* padding: 0; */
+    /* margin: 0; */
+    background: rgb(11, 8, 8);
+}
+
+.copyright h1{
+    font-size: 20px;
+    font-family:monospace;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: flex-start; */
+}

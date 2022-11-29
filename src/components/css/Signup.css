@@ -1,0 +1,167 @@
+.main-box1{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 550px;
+    /* height: 450px; */
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    padding-bottom: 20px;
+}
+.input-box1{
+    position: relative;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    margin-right: 20px;
+    /* background-color: aqua; */
+    height: auto;
+}
+.signup-text{
+    font-family: monospace;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.input-names{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.input-text{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 215px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+    /* padding: 0 20px; */
+    margin: 10px;
+    /* box-shadow: 0.2px 2px 2px 2px grey inset; */
+}
+
+.term-checkbox{
+    border-radius: 2px;
+    /* margin-left: 10px; */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.div-checkbox{
+    display: flex;
+    margin-top: 1px;
+    margin-left: 20px;
+    /* display: inline-flex; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.term-text{
+    font-size: 10px;
+    font-weight: 400;
+    /* font-family: monospace; */
+}
+
+.email-box{
+    display: flex;
+    margin-bottom: 10px;
+}
+.input-username{
+    display: flex;
+}
+
+.input-text1{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 440px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+    margin-bottom: 10px;
+}
+.input-email{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 464px;
+    margin-left: 24px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+}
+
+.password-box{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-password{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 464px;
+    margin-left: 24px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+}
+
+
+.confirm-box{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-confirm{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 464px;
+    margin-left: 24px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+}
+.phone-box{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-phone{
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 20x;
+    padding-left: 7px;
+    height: 28px;
+    width: 464px;
+    margin-left: 24px;
+    background: transparent;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-radius: 1px;
+}
+
+.register-button{
+    margin-top: 10px;
+    height: 28px;
+    font-family: monospace;
+    border: 1px;
+    color: white;
+    border-radius: 5px;
+    background-color: #18A0FB;
+}
+
+.span-1{
+    text-decoration: underline;
+}
+

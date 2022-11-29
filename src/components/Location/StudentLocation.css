@@ -1,0 +1,231 @@
+.div-box1{
+    background-color: white;
+    width: 720px;
+    height: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(192, 192, 192);
+}
+.div-box2{
+    background-color: aquamarine;
+    width: 100%;
+    height: 1.5px;
+}
+
+.enter-details_text{
+    font-family: monospace;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.lat-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 22px 3px 0px 23px;
+}
+.text-only{
+    font-family: monospace;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.latitude-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(101, 60, 151);
+    font-family: monospace;
+}
+.add-div_lat{
+    margin-right: 20px;
+    /* padding-top: 25px; */
+    display: flex;
+    justify-content: center;
+}
+.add_lat{
+    font-size: 10px;
+    font-family: monospace;
+}
+.addSvg2{
+    margin-top: 9px;
+    padding: 0 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.form-lat_div{
+    /* width: 60%; */
+    /* border: 1px dotted blue; */
+    display: flex;
+    margin-left: 25px;
+    justify-content: space-between;
+    /* border: 1px solid grey; */
+}
+
+.form1{
+    width: 60%;
+    /* border: 1px dotted blue; */
+}
+.form-lat_input{
+    font-family: monospace;
+    color: CACACA;
+    outline: 0;
+    border-color: black;
+    border-width: 0 0 1px;
+    margin: 0 20px;
+    /* padding-right: 10px; */
+    /* border-bottom: 1px solid black; */
+}
+.form-long_input{
+    font-family: monospace;
+    color: CACACA;
+    outline: 0;
+    border-color: black;
+    border-width: 0 0 1px;
+    padding-right: 10px;
+    margin: 0 20px;
+}
+.location-box{
+    margin-top: 20px;
+}
+
+.longlat_div{
+    /* margin-top: 20px; */
+    display: inline;
+}
+
+.side-div{
+    margin-right: 40px;
+}
+.location_a{
+    margin-top: 10px;
+    /* padding-top: 10px; */
+    font-family: monospace;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 100;
+    color: #6183F9;
+}
+.submit{
+    /* padding-top: 10px; */
+    margin-top: 10px;
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    font-family: monospace;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 10px 20px;
+}
+
+.location-input{
+    margin-top: 20px;
+}
+.locationName{
+    font-family: monospace;
+    color: CACACA;
+    outline: 0;
+    border-color: black;
+    border-width: 0 0 1px;
+    margin: 0 20px;
+}
+.noStudents{
+    font-family: monospace;
+    color: CACACA;
+    outline: 0;
+    border-color: black;
+    border-width: 0 0 1px;
+    margin: 0 20px;
+}
+
+.horizontalLine{
+    display: flex;
+}
+.horizontalLine h1{
+    font-size: 15px;
+    color: CACACA;
+    font-family: monospace;
+
+}
+.horizontalLine hr{
+    height: 1px;
+}
+.line{
+    width: 40%;
+    height: 1px;
+    color: rgb(124, 122, 122);
+}
+
+.reading-headline{
+    text-align: left;
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(101, 60, 151);
+    font-family: monospace;
+    
+}
+
+.file-reader-div{
+    margin-left: 20px;
+}
+
+.upload-input{
+    display: none;
+}
+
+.fileReader-button{
+    width: auto;
+    height: 20px;
+    font-family: monospace;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: 100;
+    border: none;
+    background-color: grey;
+}
+
+.checklist{
+    /* width:300px; */
+    width: auto;
+    border: 1px solid black;
+    height: 300px;
+    border: 1px solid black;
+    /* margin-bottom: 0; */
+    z-index: 1;
+    position: absolute;
+    /* margin-top: 40px; */
+}
+/* 
+tbody td{
+    padding: 5px;
+} */
+
+.checklist-table{
+    width: auto;
+    border: none;
+}
+
+.checklist-table td{
+    padding: 7px;
+}
+
+.checklist-div{
+    /* padding: 0; */
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    align-items: center;
+    background-clip: cover;
+    border: 1px solid white;
+    /* border: none; */
+}
+
+.text-check{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 100;
+    /* background-color: aquamarine; */
+}

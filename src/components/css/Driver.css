@@ -1,0 +1,152 @@
+.container {
+    background-image: url('../img/banner.png');
+    background-color:antiquewhite;
+    height: 655px;
+}
+
+.container1 {
+    /* display: flex; */
+    padding-top: 150px;
+    /* border: 1px solid red; */
+    filter: blur(0px);
+    align-items: center;
+    justify-items: center;
+
+}
+
+.mainContainer{
+    position: relative;
+}
+
+.bus-box{
+    margin: auto;
+    width: 510px;
+    height: auto;
+    background-color:white;
+    padding-bottom: 45px;
+}
+
+.color-box{
+    background-color: aquamarine;
+    height: 5px;
+}
+
+
+.text-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.add-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 50px;
+}
+.add-logo{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    padding: 0 9px;
+}
+.add-text{
+    font-size: 20px;
+    font-family: monospace;
+    color: #16A425;
+}
+
+table{
+    border: 1px solid #E6E6E6;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    height: auto;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    font-family: monospace;
+    border-style: groove;
+}
+thead tr{
+    /* padding-top: 10px; */
+    height: 30px;
+    /* font-size: 15px; */
+    background-color: black;
+    color: aliceblue;
+}
+thead th{
+    padding: 10px 0px;
+    font-size: 15px;
+}
+tbody tr{
+    /* border: 1px solid red; */
+    border-bottom: 1px solid #E6E6E6;
+    height: 20px;
+    align-items: center;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) */
+}
+
+tbody td{
+    text-align: center;
+    padding: 5px 0;
+}
+
+.main1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+
+.popup{
+    height: 180px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+
+.dialog-box{
+    border: none;
+    display: block;
+    box-shadow: 2px 2px 2px 2px rgb(207, 207, 207);
+    /* margin-top: auto; */
+    margin-top: 150px;
+    position: absolute;
+    width:200px;
+    height: auto;
+    /* height: 200px; */
+    /* width: 600px; */
+    /* height: 200px; */
+
+    z-index: 1;
+    /* bac */
+}
+
+.div1{
+    margin-top: 14px;
+    font-family: monospace;
+    /* display: block; */
+    /* padding: 10px; */
+}
+.div1 input{
+    /* padding: 10px; */
+    margin: 10px;
+    border: none;
+    font-family: monospace;
+    border-bottom: solid 1px;
+}
+
+.dialog-box h1{
+    margin: 0;
+    padding:  0;
+    font-size: 15px;
+    font-family: monospace;
+    float: right;
+}
